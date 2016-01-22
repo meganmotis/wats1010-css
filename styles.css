@@ -1,6 +1,10 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+html {
+	font-family: sans-serif;
+}
 
-h1 {
+h1, h2, h3 {
     color: green;
+	font-family: "Gill Sans MT";
 }
