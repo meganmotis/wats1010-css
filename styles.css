@@ -1,10 +1,57 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
-html {
-	font-family: sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+    color: green;
+	font-family: "monotype corsiva";
 }
 
-h1, h2, h3 {
-    color: green;
-	font-family: "Gill Sans MT";
+body {
+	font-family: sans-serif;
+	background-image: url('images/sand.jpg');
+	padding: 1rem;
+}
+
+header.page-header {
+	background-color: lightgoldenrodyellow;
+	border: solid 1px black;
+	padding: 1rem;
+}
+
+.page-header h1 {
+	margin:0;
+}
+
+.page-header p {
+	margin:0;
+}
+
+aside.more-info {
+	float: right;
+	color: green;
+	border: solid 1px black;
+	background-color: lightgreen;
+	padding: 1rem;
+	margin-right: 1;
+}
+
+aside.more-info img {
+	width:150px;
+	height:auto;
+}
+
+section#content {
+	background-color: lightgoldenrodyellow
+	padding: 1rem;
+}
+
+.poem {
+	list-style-type:none;
+	line-height: 1.5;
+}
+footer.page-footer {
+	border: solid 1px black;
+	background-color: lightgoldenrodyellow;
+	padding: 0.5rem;
+	font-size: small
 }
